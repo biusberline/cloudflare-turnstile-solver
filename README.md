@@ -152,6 +152,28 @@ This package uses [Peak](https://peak.fo/?utm_source=github&utm_medium=readme&ut
 
 [Get your free API key](https://peak.fo/?utm_source=github&utm_medium=readme&utm_campaign=packages&utm_content=cloudflare-turnstile-solver) • [Docs](https://peak.fo/docs/turnstile?utm_source=github&utm_medium=readme&utm_campaign=packages&utm_content=cloudflare-turnstile-solver) • [Pricing](https://peak.fo/pricing?utm_source=github&utm_medium=readme&utm_campaign=packages&utm_content=cloudflare-turnstile-solver)
 
+## FAQ
+
+**Does it run headless / without a browser?**
+
+Yes. The whole package is a single Python file on the standard library - no
+browser, no webdriver, no Node. It runs the same on a headless CI runner as it
+does locally.
+
+**How do I use a proxy?**
+
+Pass it to `create_token` / `token_for_page` with the `proxy` argument, or use
+`--proxy` on the CLI:
+
+```console
+$ python -m cloudflare_turnstile_solver --url https://example.com/ --proxy http://u:p@1.2.3.4:8080
+```
+
+**Can I use it for multiple pages on the same site?**
+
+Yes - call `token_for_page` per page URL. Each token is bound to the page URL
+it was created for, so don't reuse one token across different pages.
+
 ## License
 
 MIT
