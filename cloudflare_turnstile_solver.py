@@ -109,7 +109,7 @@ def create_token(
     if not api_key:
         raise TurnstileTokenError(
             "No API key. Set PEAK_API_KEY or pass an api_key "
-            "(get a free key at https://peak.fo, code PEAKGH)."
+            "(get 1,000 free solves at https://peak.fo - no card required)."
         )
     payload = build_payload(sitekey, url, proxy, action, cdata)
     body = json.dumps(payload).encode("utf-8")

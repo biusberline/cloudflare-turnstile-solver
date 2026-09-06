@@ -146,9 +146,10 @@ curl -X POST https://example.com/submit \
 ## Powered by Peak
 
 This package uses [Peak](https://peak.fo/?utm_source=github&utm_medium=readme&utm_campaign=packages&utm_content=cloudflare-turnstile-solver) to solve Turnstile.
-- Solve Cloudflare Turnstile & the 5s challenge in about a second
-- Pay only for successful solves - from $1 / 1,000
-- Free API key, no card. Use code **`PEAKGH`** for bonus trial credit.
+
+- ✅ **1,000 free solves to start - no card.** [Grab 1,000 free solves](https://peak.fo/?utm_source=github&utm_medium=readme&utm_campaign=packages&utm_content=cloudflare-turnstile-solver) and pay only for successful solves.
+- From **$0.8 / 1,000** successful solves.
+- Solve Cloudflare Turnstile & the 5s challenge in about a second.
 
 [Get your free API key](https://peak.fo/?utm_source=github&utm_medium=readme&utm_campaign=packages&utm_content=cloudflare-turnstile-solver) • [Docs](https://peak.fo/docs/turnstile?utm_source=github&utm_medium=readme&utm_campaign=packages&utm_content=cloudflare-turnstile-solver) • [Pricing](https://peak.fo/pricing?utm_source=github&utm_medium=readme&utm_campaign=packages&utm_content=cloudflare-turnstile-solver)
 
