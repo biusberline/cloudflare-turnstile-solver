@@ -175,6 +175,16 @@ $ python -m cloudflare_turnstile_solver --url https://example.com/ --proxy http:
 Yes - call `token_for_page` per page URL. Each token is bound to the page URL
 it was created for, so don't reuse one token across different pages.
 
+**How long is a token valid?**
+
+Tokens are short-lived. Create one right before you submit the form, and do not
+cache it across runs.
+
+**Can I run it inside Docker?**
+
+Yes - a plain `python:3.12-slim` image is enough. No browser, no extra system
+packages: mount your script, set `PEAK_API_KEY`, run it.
+
 ## License
 
 MIT
