@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "cloudflare-turnstile-solver"
-version = "1.0.0"
+version = "1.0.1"
 description = "Find the Cloudflare Turnstile sitekey on any page and create a valid Turnstile token via the Peak API - Python, dependency-free, CLI-ready for CI and automation."
 readme = "README.md"
 requires-python = ">=3.8"

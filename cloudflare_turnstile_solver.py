@@ -25,7 +25,7 @@ from dataclasses import dataclass
 from typing import Optional
 from urllib.request import Request, urlopen
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 DEFAULT_API_URL = "https://api.peak.fo/solve"
 ENV_API_KEY = "PEAK_API_KEY"
