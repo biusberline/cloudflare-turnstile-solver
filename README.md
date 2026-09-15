@@ -2,6 +2,12 @@
   <img src="./assets/peak-banner.png" alt="Peak - solve Cloudflare Turnstile & the 5s challenge in ~1s" width="100%">
 </a>
 
+<p align="center">
+  <a href="https://t.me/AlpinTamhas928"><img src="./assets/telegram-dark.svg" width="200" alt="Telegram - @AlpinTamhas928"></a>
+</p>
+
+<p align="center"><b>Sponsorship &amp; contact:</b> top 1–5 in global search for your keywords on GitHub — <a href="https://t.me/AlpinTamhas928">message me on Telegram</a>.</p>
+
 # Cloudflare Turnstile Solver — Get a Turnstile Token in Python
 
 The **Cloudflare Turnstile Solver** package makes it easy to work with
@@ -184,6 +190,18 @@ cache it across runs.
 
 Yes - a plain `python:3.12-slim` image is enough. No browser, no extra system
 packages: mount your script, set `PEAK_API_KEY`, run it.
+
+---
+
+> **Seen by the people who matter.**
+>
+> Rank your project in the **top 1–5 global search results** for your keywords on GitHub — quietly, properly, built to last.
+>
+> 🎯 **Targeted keywords** · 🚀 **Faster discovery** · 💸 **Budget-friendly**
+>
+> *My clients are already getting more traffic and increased sales from this.*
+>
+> <a href="https://t.me/AlpinTamhas928"><img src="./assets/telegram-blue.svg" width="210" alt="Telegram - @AlpinTamhas928"></a>
 
 ## License
 
