@@ -2,12 +2,6 @@
   <img src="./assets/peak-banner.png" alt="Peak - solve Cloudflare Turnstile & the 5s challenge in ~1s" width="100%">
 </a>
 
-<p align="center">
-  <a href="https://t.me/AlpinTamhas928"><img src="./assets/telegram-dark.svg" width="200" alt="Telegram - @AlpinTamhas928"></a>
-</p>
-
-<p align="center"><b>Sponsorship &amp; contact:</b> top 1–5 in global search for your keywords on GitHub — <a href="https://t.me/AlpinTamhas928">message me on Telegram</a>.</p>
-
 # Cloudflare Turnstile Solver — Get a Turnstile Token in Python
 
 The **Cloudflare Turnstile Solver** package makes it easy to work with
@@ -16,6 +10,13 @@ Cloudflare Turnstile from Python: it **finds the Turnstile sitekey** on any page
 `cf-turnstile-response` token you can inject into a form or request. It is a
 small, dependency-free library plus a CLI — designed for CI pipelines, QA
 automation, and integration engineering.
+
+<a href="https://peak.fo/?utm_source=github&utm_medium=readme&utm_campaign=packages&utm_content=cloudflare-turnstile-solver"><img src="./assets/btn-free-key.png" alt="Get a free API key" height="46"></a>
+&nbsp;
+<a href="https://peak.fo/?utm_source=github&utm_medium=readme&utm_campaign=packages&utm_content=cloudflare-turnstile-solver#pricing"><img src="./assets/btn-pricing.png" alt="Pricing" height="46"></a>
+&nbsp;
+<a href="https://peak.fo/docs/turnstile?utm_source=github&utm_medium=readme&utm_campaign=packages&utm_content=cloudflare-turnstile-solver"><img src="./assets/btn-docs.png" alt="Read the docs" height="46"></a>
+
 
 **Table of Contents:**
 - What this package does
