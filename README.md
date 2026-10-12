@@ -192,6 +192,15 @@ cache it across runs.
 Yes - a plain `python:3.12-slim` image is enough. No browser, no extra system
 packages: mount your script, set `PEAK_API_KEY`, run it.
 
+**What Python versions are supported?**
+
+Python 3.8 and newer. The package uses the standard library only - no
+dependencies to install or pin.
+
+**Where do I get an API key?**
+
+Create a free key at [Peak](https://peak.fo/?utm_source=github&utm_medium=readme&utm_campaign=packages&utm_content=cloudflare-turnstile-solver) - no card required, and it starts with **1,000 free solves**. Use code **`PEAKGH`** for bonus trial credit.
+
 ---
 
 > **Seen by the people who matter.**
